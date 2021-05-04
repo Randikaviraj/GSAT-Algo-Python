@@ -33,5 +33,5 @@ end GSAT
   
 ## run programme using
 ```
-python3 Gsat.py  <data input file name>
+python3 Gsat.py  <data input file name> <max no of flips> <max no of tries>
 ```
