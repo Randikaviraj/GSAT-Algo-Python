@@ -6,7 +6,7 @@ import time
 
 
 if __name__ =="__main__":
-    # try:
+    try:
         
         expression=Expression()
         expression.setMaxFlips(int(sys.argv[2]))
@@ -36,6 +36,6 @@ if __name__ =="__main__":
             print('Finished::')
             print('Running Time in second'+str(seconds))
             
-    # except Exception as e:
-    #     print(e)
-    #     print('Invalid no of Arguments :: python Dpll.py <filename> <Max no of flips> <Max no of tries>')
+    except Exception as e:
+        print(e)
+        print('Invalid no of Arguments :: python Dpll.py <filename> <Max no of flips> <Max no of tries>')

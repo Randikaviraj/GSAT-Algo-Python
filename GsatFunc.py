@@ -107,7 +107,5 @@ def gsatAlgorithm(expression:Expression):
                 
             max=maxDiff(diffs)
             randomlyGeneratedValues[max]=not(randomlyGeneratedValues[max])
-            print(max)
-            print("*****************")
         
     return []
